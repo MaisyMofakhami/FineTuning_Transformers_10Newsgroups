@@ -62,7 +62,9 @@ These techniques helped simulate lexical variability and improved the model's ab
 ## 📊 Evaluation
 
 * Metrics: Precision, Recall, F1-score, and per-class breakdown
-* Confusion matrix to analyze class-wise performance
+
+![image](https://github.com/user-attachments/assets/81677698-320b-454f-8f83-0def416831d5)
+
 * Attention visualizations to interpret focus regions
 
 ### 📈 Example: Confusion Matrix
@@ -77,14 +79,14 @@ These techniques helped simulate lexical variability and improved the model's ab
 
 ## 🧠 Interpretability
 
-Used **SHAP** for model interpretability:
+Used **LIME** and **SHAP** for model interpretability:
 
 * Visualized token-wise contribution to predictions
 * Compared attention with feature attribution maps
 
 ### Example: SHAP Explanation
 
-![SHAP](images/shap_example.png)
+![image](https://github.com/user-attachments/assets/c33be094-f557-48eb-b0fe-bf0052d27f5d)
 
 ---
 
@@ -94,9 +96,3 @@ Used **SHAP** for model interpretability:
 * Add multilingual transformers (XLM-R, mBERT)
 * Explore low-rank fine-tuning (LoRA, AdapterFusion)
 * Deploy the model using ONNX or TorchServe
-
----
-
-## 📬 Contact
-
-For questions or collaborations, reach out at \[[your-email@example.com](mailto:your-email@example.com)].
